@@ -139,7 +139,7 @@ Cada portfólio foi desenvolvido para demonstrar expertise prática e capacidade
 ## 🛠️ Competências Demonstradas
 
 ### 🔧 Habilidades Técnicas
-``yaml
+
 Gestão Ágil:
   - Scrum, Kanban, OKRs, Disciplined Agile
   - Jira, Confluence, Power BI, Trello
@@ -181,7 +181,9 @@ Liderança servidora: Desenvolvimento de equipes autônomas e empoderadas
 | **Engajamento em Aprendizagem** | +74% |
 | **Redução de Custos** | -33% |
 | **Velocidade de Negociação** | -40% |
+
 <div align="center">
+  
 "Conectando estratégia à execução: transformo desafios complexos em resultados mensuráveis através de agilidade, dados e desenvolvimento humano."
 
 📍 Disponível para novos desafios | 🌎 Disponivel para viagens | 🚀 Pronta para entregar valor desde o primeiro dia
