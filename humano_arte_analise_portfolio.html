@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Humano Arte Análise - PMO & Cultura</title>
+    <!-- Carregamento do Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #0F172A; /* Slate 900 */
+            color: #E2E8F0; /* Light Text */
+        }
+        .section-card {
+            background-color: #1E293B; /* Slate 800 */
+            border-radius: 12px;
+            padding: 2.5rem;
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+        }
+        .badge {
+            display: inline-flex;
+            align-items: center;
+            padding: 0.35rem 0.8rem;
+            border-radius: 9999px;
+            font-weight: 600;
+            font-size: 0.875rem;
+            color: white;
+            margin: 0.25rem;
+        }
+        .metric-table th {
+            background-color: #334155; /* Slate 700 */
+            padding: 1rem 1.5rem;
+            text-align: left;
+            border-bottom: 2px solid #1E293B;
+        }
+        .metric-table td {
+            padding: 1rem 1.5rem;
+            border-bottom: 1px solid #334155;
+        }
+    </style>
+</head>
+<body class="p-4 sm:p-8 md:p-12">
+
+    <div class="max-w-7xl mx-auto">
+
+        <!-- HEADER E TÍTULO PRINCIPAL -->
+        <header class="text-center mb-12">
+            <h1 class="text-5xl font-extrabold text-cyan-400 sm:text-6xl mb-2">Humano Arte Análise</h1>
+            <h2 class="text-3xl font-light text-gray-200 mb-6">Estruturação de PMO & Transformação Cultural</h2>
+            <p class="text-xl font-medium text-gray-400">`PMO Lead | Agile Governance | Culture Transformation`</p>
+            <p class="text-base italic text-gray-500 mt-1">Do caos à excelência: implementando governança ágil em ambiente de saúde mental</p>
+
+            <!-- Badges Iniciais -->
+            <div class="mt-6 flex justify-center flex-wrap gap-3">
+                <span class="badge bg-purple-600">🏗️ PMO do Zero</span>
+                <span class="badge bg-emerald-600">📈 +96% Eficiência</span>
+                <span class="badge bg-blue-700">💰 -62% Retrabalho</span>
+            </div>
+        </header>
+
+        <!-- CONTEXTO E DESAFIO INICIAL -->
+        <section id="contexto" class="section-card mb-12">
+            <h3 class="text-3xl font-bold text-cyan-400 mb-6">🎯 Contexto & Desafio Inicial</h3>
+            <p class="text-gray-400 mb-6">Ambiente fragmentado na área de saúde mental com ausência total de estruturação:</p>
+
+            <!-- Tabela de Problemas e Impactos -->
+            <div class="overflow-x-auto">
+                <table class="w-full text-sm text-left text-gray-400 rounded-lg overflow-hidden">
+                    <thead class="text-xs uppercase bg-red-800 text-white">
+                        <tr>
+                            <th scope="col" class="px-6 py-3">Problema Crítico</th>
+                            <th scope="col" class="px-6 py-3">Impacto Direto</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="bg-red-900/50 border-b border-gray-700 hover:bg-red-800/70">
+                            <td class="px-6 py-4 font-medium whitespace-nowrap text-white">Zero padronização</td>
+                            <td class="px-6 py-4">Processos inconsistentes entre clínicas</td>
+                        </tr>
+                        <tr class="bg-red-900/50 border-b border-gray-700 hover:bg-red-800/70">
+                            <td class="px-6 py-4 font-medium whitespace-nowrap text-white">Retrabalho elevado</td>
+                            <td class="px-6 py-4">Custos altos e insatisfação geral</td>
+                        </tr>
+                        <tr class="bg-red-900/50 border-b border-gray-700 hover:bg-red-800/70">
+                            <td class="px-6 py-4 font-medium whitespace-nowrap text-white">Comunicação quebrada</td>
+                            <td class="px-6 py-4">Departamentos trabalhando em silos</td>
+                        </tr>
+                        <tr class="bg-red-900/50 border-b border-gray-700 hover:bg-red-800/70">
+                            <td class="px-6 py-4 font-medium whitespace-nowrap text-white">Ausência de indicadores</td>
+                            <td class="px-6 py-4">Decisões sem base factual</td>
+                        </tr>
+                        <tr class="bg-red-900/50 border-b border-gray-700 hover:bg-red-800/70">
+                            <td class="px-6 py-4 font-medium whitespace-nowrap text-white">Resistência cultural forte</td>
+                            <td class="px-6 py-4">Profissionais clínicos versus administrativos</td>
+                        </tr>
+                        <tr class="bg-red-900/50 border-b border-gray-700 hover:bg-red-800/70">
+                            <td class="px-6 py-4 font-medium whitespace-nowrap text-white">Processos 100% manuais</td>
+                            <td class="px-6 py-4">Lentidão operacional e erros frequentes</td>
+                        </tr>
+                        <tr class="bg-red-900/50 hover:bg-red-800/70">
+                            <td class="px-6 py-4 font-medium whitespace-nowrap text-white">PMO inexistente</td>
+                            <td class="px-6 py-4">Falta de governança e visibilidade</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <p class="text-lg font-semibold text-center text-cyan-300 mt-6 p-3 bg-cyan-900/30 rounded-lg">
+                &gt; **Missão Principal:** Implementar PMO estratégico, reduzir retrabalho e transformar cultura organizacional
+            </p>
+        </section>
+
+        <!-- SOLUÇÃO IMPLEMENTADA -->
+        <section id="solucao" class="section-card mb-12">
+            <h3 class="text-3xl font-bold text-cyan-400 mb-6">🛠️ Solução Implementada</h3>
+
+            <!-- Framework de Governança Híbrida -->
+            <div class="mb-8">
+                <h4 class="text-2xl font-semibold text-gray-200 mb-4 border-b border-gray-700 pb-2">🔧 Framework de Governança Híbrida</h4>
+                <div class="grid md:grid-cols-3 gap-6">
+                    <div class="p-4 bg-gray-700 rounded-lg">
+                        <p class="text-lg font-bold text-cyan-300 mb-2">PMO Estratégico:</p>
+                        <ul class="list-disc list-inside space-y-1 text-gray-400 ml-4">
+                            <li>Estruturação do zero com abordagem gradual</li>
+                            <li>Modelo híbrido: PMBOK + Agile + Lean</li>
+                            <li>Governança por valor versus controle</li>
+                        </ul>
+                    </div>
+                    <div class="p-4 bg-gray-700 rounded-lg">
+                        <p class="text-lg font-bold text-cyan-300 mb-2">Processos Padronizados:</p>
+                        <ul class="list-disc list-inside space-y-1 text-gray-400 ml-4">
+                            <li>Templates unificados para todas as clínicas</li>
+                            <li>Workflows visuais para transparência</li>
+                            <li>Matrizes de risco setoriais</li>
+                        </ul>
+                    </div>
+                    <div class="p-4 bg-gray-700 rounded-lg">
+                        <p class="text-lg font-bold text-cyan-300 mb-2">Métricas & Dashboards:</p>
+                        <ul class="list-disc list-inside space-y-1 text-gray-400 ml-4">
+                            <li>KPIs de eficiência e qualidade</li>
+                            <li>SLA interno entre departamentos</li>
+                            <li>Indicadores de satisfação</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Sistema de Métricas Implementado -->
+            <div class="mb-8">
+                <h4 class="text-2xl font-semibold text-gray-200 mb-4 border-b border-gray-700 pb-2">📊 Sistema de Métricas Implementado</h4>
+                <div class="overflow-x-auto">
+                    <table class="w-full text-sm text-left text-gray-400 rounded-lg overflow-hidden metric-table">
+                        <thead class="text-xs uppercase text-gray-300">
+                            <tr>
+                                <th>Métrica</th>
+                                <th>Finalidade</th>
+                                <th>Ferramenta</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="font-medium text-white">Retrabalho (% por setor)</td>
+                                <td>Identificar gargalos de qualidade</td>
+                                <td class="text-emerald-400">Power BI</td>
+                            </tr>
+                            <tr>
+                                <td class="font-medium text-white">Lead Time de atendimento</td>
+                                <td>Medir velocidade operacional</td>
+                                <td class="text-emerald-400">Planilhas + BI</td>
+                            </tr>
+                            <tr>
+                                <td class="font-medium text-white">SLA interno</td>
+                                <td>Melhorar colaboração entre áreas</td>
+                                <td class="text-emerald-400">Dashboards</td>
+                            </tr>
+                            <tr>
+                                <td class="font-medium text-white">Custo administrativo</td>
+                                <td>Otimização financeira</td>
+                                <td class="text-emerald-400">Análise custo/processo</td>
+                            </tr>
+                            <tr>
+                                <td class="font-medium text-white">Satisfação interna</td>
+                                <td>Termômetro cultural</td>
+                                <td class="text-emerald-400">Pesquisas NPS</td>
+                            </tr>
+                            <tr>
+                                <td class="font-medium text-white">Métricas de fluxo</td>
+                                <td>Eficiência operacional</td>
+                                <td class="text-emerald-400">WIP + Cycle Time</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
+
+        <!-- RESULTADOS ALCANÇADOS -->
+        <section id="resultados" class="section-card mb-12">
+            <h3 class="text-3xl font-bold text-cyan-400 mb-6">📈 Resultados Alcançados</h3>
+
+            <!-- Tabela de Transformação Quantitativa -->
+            <div class="mb-8">
+                <h4 class="text-2xl font-semibold text-gray-200 mb-4 border-b border-gray-700 pb-2">🎯 Transformação Quantitativa</h4>
+                <div class="overflow-x-auto">
+                    <table class="w-full text-sm text-left text-gray-400 rounded-lg overflow-hidden metric-table">
+                        <thead class="text-xs uppercase text-gray-300">
+                            <tr>
+                                <th>KPI</th>
+                                <th>Antes</th>
+                                <th>Depois</th>
+                                <th>Melhoria</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="font-medium text-white">Retrabalho</td>
+                                <td>100% baseline</td>
+                                <td class="text-emerald-400">38%</td>
+                                <td class="font-bold text-emerald-400">-62%</td>
+                            </tr>
+                            <tr>
+                                <td class="font-medium text-white">Custos Administrativos</td>
+                                <td>100% baseline</td>
+                                <td class="text-emerald-400">67%</td>
+                                <td class="font-bold text-emerald-400">-33%</td>
+                            </tr>
+                            <tr>
+                                <td class="font-medium text-white">Eficiência Operacional</td>
+                                <td>100% baseline</td>
+                                <td class="text-emerald-400">196%</td>
+                                <td class="font-bold text-emerald-400">+96%</td>
+                            </tr>
+                            <tr>
+                                <td class="font-medium text-white">Satisfação Geral</td>
+                                <td>65%</td>
+                                <td class="text-emerald-400">93%</td>
+                                <td class="font-bold text-emerald-400">+43%</td>
+                            </tr>
+                            <tr>
+                                <td class="font-medium text-white">Conflitos Internos</td>
+                                <td>Alto</td>
+                                <td class="text-emerald-400">Controlado</td>
+                                <td class="font-bold text-emerald-400">-79%</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <!-- Dashboard de Performance (Reconstrução Visual) -->
+            <div class="grid md:grid-cols-3 gap-6">
+                <!-- Fluxo de Atendimento - Antes x Depois -->
+                <div class="md:col-span-1 p-4 bg-gray-700 rounded-lg">
+                    <p class="text-xl font-bold text-cyan-300 mb-3">🔄 FLUXO - ANTES x DEPOIS</p>
+                    <ul class="space-y-2 text-sm">
+                        <li class="p-2 bg-red-800/50 rounded-md"><strong>ANTES:</strong> 🚫 Sem padrão, 62% retrabalho, 5-7 dias Lead Time, 65% satisfação</li>
+                        <li class="p-2 bg-emerald-800/50 rounded-md"><strong>DEPOIS:</strong> ✅ Padrão único, 0% retrabalho (meta), 1-2 dias Lead Time, 93% satisfação</li>
+                    </ul>
+                </div>
+
+                <!-- EVOLUÇÃO DO RETRABALHO (Gráfico de Queda) -->
+                <div class="md:col-span-1 p-4 bg-gray-700 rounded-lg">
+                    <p class="text-xl font-bold text-cyan-300 mb-3">📊 EVOLUÇÃO DO RETRABALHO</p>
+                    <p class="text-sm text-gray-400 mb-2">Redução de 100% para 38% em 6 meses.</p>
+                    <div class="flex items-end h-40 space-x-2">
+                        <div class="w-1/6 h-[100%] bg-red-600 rounded-t-sm" title="M1: 100%"></div>
+                        <div class="w-1/6 h-[80%] bg-red-500 rounded-t-sm" title="M2: 80%"></div>
+                        <div class="w-1/6 h-[60%] bg-amber-500 rounded-t-sm" title="M3: 60%"></div>
+                        <div class="w-1/6 h-[40%] bg-yellow-500 rounded-t-sm" title="M4: 40%"></div>
+                        <div class="w-1/6 h-[38%] bg-emerald-500 rounded-t-sm" title="M5: 38%"></div>
+                        <div class="w-1/6 h-[38%] bg-emerald-600 rounded-t-sm" title="M6: 38% (Estabilizado)"></div>
+                    </div>
+                    <div class="text-center text-gray-500 text-xs mt-2">Meses (M1 a M6)</div>
+                </div>
+
+                <!-- REDUÇÃO DE CUSTOS (Gráfico de Queda) -->
+                <div class="md:col-span-1 p-4 bg-gray-700 rounded-lg">
+                    <p class="text-xl font-bold text-cyan-300 mb-3">💰 REDUÇÃO DE CUSTOS</p>
+                    <p class="text-sm text-gray-400 mb-2">Queda nos Custos Administrativos de 33%.</p>
+                    <div class="flex items-end h-40 space-x-2">
+                        <div class="w-1/4 h-[100%] bg-blue-700 rounded-t-sm" title="Trim1: 100%"></div>
+                        <div class="w-1/4 h-[90%] bg-blue-600 rounded-t-sm" title="Trim2: 90%"></div>
+                        <div class="w-1/4 h-[80%] bg-blue-500 rounded-t-sm" title="Trim3: 80%"></div>
+                        <div class="w-1/4 h-[67%] bg-blue-400 rounded-t-sm" title="Trim4: 67%"></div>
+                    </div>
+                    <div class="text-center text-gray-500 text-xs mt-2">Trimestres (Trim1 a Trim4)</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- TEMPLATES & PADRONIZAÇÕES CRIADAS -->
+        <section id="templates" class="section-card mb-12">
+            <h3 class="text-3xl font-bold text-cyan-400 mb-6">🎨 Templates & Padronizações Criadas</h3>
+            <div class="mb-8">
+                <h4 class="text-2xl font-semibold text-gray-200 mb-4 border-b border-gray-700 pb-2">📋 Portfolio de Templates Implementados</h4>
+                <div class="overflow-x-auto">
+                    <table class="w-full text-sm text-left text-gray-400 rounded-lg overflow-hidden metric-table">
+                        <thead class="text-xs uppercase text-gray-300">
+                            <tr>
+                                <th>Template</th>
+                                <th>Função</th>
+                                <th>Impacto</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="font-medium text-white">Report Semanal</td>
+                                <td>Visibilidade executiva</td>
+                                <td class="text-emerald-400">-25% tempo de preparação</td>
+                            </tr>
+                            <tr>
+                                <td class="font-medium text-white">Reunião Executiva</td>
+                                <td>Decisões ágeis</td>
+                                <td class="text-emerald-400">+50% eficiência em decisões</td>
+                            </tr>
+                            <tr>
+                                <td class="font-medium text-white">Abertura de Projeto</td>
+                                <td>Padronização inicial</td>
+                                <td class="text-emerald-400">-40% retrabalho em setup</td>
+                            </tr>
+                            <tr>
+                                <td class="font-medium text-white">Workflows Visuais</td>
+                                <td>Clarity operacional</td>
+                                <td class="text-emerald-400">+75% entendimento do processo</td>
+                            </tr>
+                            <tr>
+                                <td class="font-medium text-white">Matrizes de Risco</td>
+                                <td>Gestão proativa</td>
+                                <td class="text-emerald-400">-60% problemas não antecipados</td>
+                            </tr>
+                            <tr>
+                                <td class="font-medium text-white">Documentação Unificada</td>
+                                <td>Padrão setorial</td>
+                                <td class="text-emerald-400">+90% consistência</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <!-- Exemplo de Workflow Implementado (Visualização em Fluxo) -->
+            <div class="p-4 bg-gray-700 rounded-lg">
+                <h4 class="text-2xl font-semibold text-cyan-300 mb-4">🎯 PROCESSO DE ATENDIMENTO PADRONIZADO</h4>
+                <div class="flex flex-col sm:flex-row justify-between items-stretch text-center space-y-4 sm:space-y-0 sm:space-x-4 text-sm font-semibold">
+                    
+                    <!-- Etapa 1 -->
+                    <div class="flex flex-col flex-1">
+                        <div class="bg-cyan-600/80 p-3 rounded-t-lg">1. AGENDAMENTO</div>
+                        <div class="bg-cyan-900/50 p-2 text-gray-300 rounded-b-lg">[Sistema]</div>
+                        <div class="text-gray-500 mt-2">↓</div>
+                    </div>
+                    
+                    <!-- Seta 1 -->
+                    <div class="hidden sm:flex items-center justify-center">
+                        <svg class="w-6 h-6 text-cyan-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
+                    </div>
+
+                    <!-- Etapa 2 -->
+                    <div class="flex flex-col flex-1">
+                        <div class="bg-cyan-600/80 p-3 rounded-t-lg">2. TRIAGEM</div>
+                        <div class="bg-cyan-900/50 p-2 text-gray-300 rounded-b-lg">[Clínico]</div>
+                        <div class="text-gray-500 mt-2">↓</div>
+                    </div>
+                    
+                    <!-- Seta 2 -->
+                    <div class="hidden sm:flex items-center justify-center">
+                        <svg class="w-6 h-6 text-cyan-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
+                    </div>
+
+                    <!-- Etapa 3 -->
+                    <div class="flex flex-col flex-1">
+                        <div class="bg-cyan-600/80 p-3 rounded-t-lg">3. ATENDIMENTO</div>
+                        <div class="bg-cyan-900/50 p-2 text-gray-300 rounded-b-lg">[Psicólogo]</div>
+                        <div class="text-gray-500 mt-2">↓</div>
+                    </div>
+                </div>
+
+                <!-- Segunda Linha (Simplificação de Layout) -->
+                <div class="flex flex-col sm:flex-row justify-between items-stretch text-center space-y-4 sm:space-y-0 sm:space-x-4 text-sm font-semibold mt-4">
+                    <div class="flex flex-col flex-1 sm:mt-12">
+                        <div class="bg-cyan-600/80 p-3 rounded-t-lg">4. REGISTRO</div>
+                        <div class="bg-cyan-900/50 p-2 text-gray-300 rounded-b-lg">...</div>
+                    </div>
+                    
+                    <div class="hidden sm:flex items-center justify-center sm:mt-12">
+                        <svg class="w-6 h-6 text-cyan-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
+                    </div>
+
+                    <div class="flex flex-col flex-1 sm:mt-12">
+                        <div class="bg-cyan-600/80 p-3 rounded-t-lg">5. ACOMPANHAMENTO</div>
+                        <div class="bg-cyan-900/50 p-2 text-gray-300 rounded-b-lg">...</div>
+                    </div>
+                    
+                    <div class="hidden sm:flex items-center justify-center sm:mt-12">
+                        <svg class="w-6 h-6 text-cyan-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
+                    </div>
+
+                    <div class="flex flex-col flex-1 sm:mt-12">
+                        <div class="bg-cyan-600/80 p-3 rounded-t-lg">6. FECHAMENTO</div>
+                        <div class="bg-cyan-900/50 p-2 text-gray-300 rounded-b-lg">...</div>
+                    </div>
+                </div>
+                
+                <h5 class="text-lg font-bold text-gray-200 mt-6 mb-3">✅ CHECKLIST POR ETAPA:</h5>
+                <div class="flex flex-wrap gap-4 text-sm">
+                    <span class="p-2 bg-emerald-700/50 rounded-lg">▢ Documentação completa</span>
+                    <span class="p-2 bg-emerald-700/50 rounded-lg">▢ SLA cumprido</span>
+                    <span class="p-2 bg-emerald-700/50 rounded-lg">▢ Satisfação medida</span>
+                    <span class="p-2 bg-emerald-700/50 rounded-lg">▢ Feedback coletado</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- SUPERAÇÃO DE OBSTÁCULOS -->
+        <section id="obstaculos" class="section-card mb-12">
+            <h3 class="text-3xl font-bold text-cyan-400 mb-6">💪 Superação de Obstáculos</h3>
+            <h4 class="text-2xl font-semibold text-gray-200 mb-4 border-b border-gray-700 pb-2">🚧 Principais Desafios Culturais</h4>
+
+            <div class="overflow-x-auto">
+                <table class="w-full text-sm text-left text-gray-400 rounded-lg overflow-hidden metric-table">
+                    <thead class="text-xs uppercase bg-gray-600 text-white">
+                        <tr>
+                            <th>Obstáculo</th>
+                            <th>Estratégia de Superação</th>
+                            <th>Resultado</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="font-medium text-white">Resistência clínica</td>
+                            <td>Envolvimento na cocriação</td>
+                            <td class="text-emerald-400">Adesão voluntária</td>
+                        </tr>
+                        <tr>
+                            <td class="font-medium text-white">Visão fragmentada</td>
+                            <td>Workshops de visão sistêmica</td>
+                            <td class="text-emerald-400">Alinhamento estratégico</td>
+                        </tr>
+                        <tr>
+                            <td class="font-medium text-white">Cultura não-data-driven</td>
+                            <td>Educação métrica gradual</td>
+                            <td class="text-emerald-400">Decisões baseadas em dados</td>
+                        </tr>
+                        <tr>
+                            <td class="font-medium text-white">Conflitos internos</td>
+                            <td>Mediação e acordos claros</td>
+                            <td class="text-emerald-400">-79% conflitos</td>
+                        </tr>
+                        <tr>
+                            <td class="font-medium text-white">Liderança fraca</td>
+                            <td>Desenvolvimento de líderes</td>
+                            <td class="text-emerald-400">Equipes autônomas</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <!-- Abordagem de Transformação Cultural -->
+            <div class="mt-8">
+                <h4 class="text-2xl font-semibold text-gray-200 mb-4 border-b border-gray-700 pb-2">🎯 Abordagem de Transformação Cultural</h4>
+                <ol class="list-decimal list-outside space-y-3 text-gray-400 ml-5">
+                    <li class="pl-2"><strong>Fase 1 - Diagnóstico & Engajamento:</strong> Mapeamento de resistências, Workshops colaborativos, Definição de propósito comum.</li>
+                    <li class="pl-2"><strong>Fase 2 - Implementação Gradual:</strong> Pilotos com *early adopters*, *Quick wins* para credibilidade, Métricas de adoção.</li>
+                    <li class="pl-2"><strong>Fase 3 - Consolidação:</strong> Lideranças como embaixadores, Rituais de reconhecimento, Cultura de melhoria contínua.</li>
+                </ol>
+            </div>
+        </section>
+
+        <!-- FERRAMENTAS & TECNOLOGIAS -->
+        <section id="ferramentas" class="section-card mb-12">
+            <h3 class="text-3xl font-bold text-cyan-400 mb-6">🛠️ Ferramentas & Tecnologias</h3>
+            <div class="flex flex-wrap justify-center gap-4">
+                <span class="badge bg-yellow-500 text-gray-900 hover:bg-yellow-600 transition duration-300">Power BI</span>
+                <span class="badge bg-blue-700 hover:bg-blue-800 transition duration-300">Trello</span>
+                <span class="badge bg-green-800 hover:bg-green-900 transition duration-300">MS Project</span>
+                <span class="badge bg-red-600 hover:bg-red-700 transition duration-300">PMBOK</span>
+                <span class="badge bg-teal-600 hover:bg-teal-700 transition duration-300">Lean Methodology</span>
+                <span class="badge bg-orange-500 hover:bg-orange-600 transition duration-300">Design Thinking</span>
+            </div>
+        </section>
+
+        <!-- APRENDIZADOS & LEGADO -->
+        <section id="legado" class="section-card mb-12">
+            <h3 class="text-3xl font-bold text-cyan-400 mb-6">💡 Aprendizados & Legado</h3>
+
+            <!-- Insights -->
+            <div class="mb-8">
+                <h4 class="text-2xl font-semibold text-gray-200 mb-4 border-b border-gray-700 pb-2">🎓 Insights Transformadores</h4>
+                <ul class="list-disc list-outside space-y-3 text-gray-400 ml-5">
+                    <li class="pl-2"><strong>Governança ≠ Burocracia:</strong> PMO como facilitador, não controlador.</li>
+                    <li class="pl-2"><strong>Dados humanizam:</strong> Métricas como ferramenta de empatia, não punição.</li>
+                    <li class="pl-2"><strong>Resistência é sinal:</strong> Indica onde a mudança é mais necessária.</li>
+                    <li class="pl-2"><strong>Cocriação vence imposição:</strong> Donos do processo são seus defensores.</li>
+                </ul>
+            </div>
+
+            <!-- Legado Duradouro -->
+            <div>
+                <h4 class="text-2xl font-semibold text-gray-200 mb-4 border-b border-gray-700 pb-2">🌟 Legado Duradouro</h4>
+                <ul class="list-disc list-outside space-y-3 text-gray-400 ml-5">
+                    <li class="pl-2"><strong>Cultura Estabelecida:</strong> Mentalidade *data-informed*, Colaboração *cross-department*, Melhoria contínua institucionalizada.</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- FOOTER E NAVEGAÇÃO -->
+        <footer class="text-center pt-8 border-t border-gray-700">
+            <div class="flex justify-center flex-wrap gap-4">
+                <a href="#" class="badge bg-indigo-600 hover:bg-indigo-700 transition duration-300">
+                    &larr; Voltar ao Portfólio Principal
+                </a>
+                <a href="#" class="badge bg-emerald-600 hover:bg-emerald-700 transition duration-300">
+                    Próximo Projeto &rarr;
+                </a>
+            </div>
+        </footer>
+
+    </div>
+
+</body>
+</html>
