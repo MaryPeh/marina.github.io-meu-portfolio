@@ -1,0 +1,557 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learning Solution - Revolução em Educação Corporativa</title>
+    <!-- Carregamento do Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #0F172A; /* Slate 900 */
+            color: #E2E8F0; /* Light Text */
+        }
+        .section-card {
+            background-color: #1E293B; /* Slate 800 */
+            border-radius: 12px;
+            padding: 2.5rem;
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+        }
+        .badge {
+            display: inline-flex;
+            align-items: center;
+            padding: 0.35rem 0.8rem;
+            border-radius: 9999px;
+            font-weight: 600;
+            font-size: 0.875rem;
+            color: white;
+            margin: 0.25rem;
+        }
+        .metric-table th {
+            background-color: #334155; /* Slate 700 */
+            padding: 1rem 1.5rem;
+            text-align: left;
+            border-bottom: 2px solid #1E293B;
+        }
+        .metric-table td {
+            padding: 1rem 1.5rem;
+            border-bottom: 1px solid #334155;
+        }
+        /* Cor de destaque para Educação: Laranja/Amarelo */
+        .highlight-color {
+            color: #F97316; /* Orange 500 */
+        }
+    </style>
+</head>
+<body class="p-4 sm:p-8 md:p-12">
+
+    <div class="max-w-7xl mx-auto">
+
+        <!-- HEADER E TÍTULO PRINCIPAL -->
+        <header class="text-center mb-12">
+            <h1 class="text-5xl font-extrabold highlight-color sm:text-6xl mb-2">Learning Solution</h1>
+            <h2 class="text-3xl font-light text-gray-200 mb-6">Revolução em Educação Corporativa</h2>
+            <p class="text-xl font-medium text-gray-400">`Instructional Designer | Project Manager | Learning Experience Architect`</p>
+            <p class="text-base italic text-gray-500 mt-1">Transformando aprendizagem corporativa através de design instrucional, tecnologia e dados</p>
+
+            <!-- Badges Iniciais -->
+            <div class="mt-6 flex justify-center flex-wrap gap-3">
+                <span class="badge bg-purple-600">🛠️ Tecnologia Educacional</span>
+                <span class="badge bg-emerald-600">📈 +74% Engajamento</span>
+                <span class="badge bg-blue-700">🎯 +83% Conversão</span>
+            </div>
+            
+            <!-- Descrição Sugerida -->
+            <p class="text-lg font-semibold text-center text-orange-300 mt-6 p-3 bg-orange-900/30 rounded-lg">
+                **Descrição Sugerida:** Redesenhei completamente trilhas de aprendizagem usando design instrucional moderno, andragogia e stack tecnológica educacional (Articulate, Moodle, HubSpot), resultando em +74% engajamento, -52% ciclo de entrega e +83% conversão de leads.
+            </p>
+        </header>
+
+        <!-- CONTEXTO E DESAFIO INICIAL -->
+        <section id="contexto" class="section-card mb-12">
+            <h3 class="text-3xl font-bold highlight-color mb-6">🎯 Contexto & Desafio Inicial</h3>
+            <p class="text-gray-400 mb-6">Empresa de educação corporativa enfrentando desafios críticos de engajamento e eficiência:</p>
+
+            <!-- Tabela de Problemas e Impactos -->
+            <div class="overflow-x-auto">
+                <table class="w-full text-sm text-left text-gray-400 rounded-lg overflow-hidden">
+                    <thead class="text-xs uppercase bg-red-800 text-white">
+                        <tr>
+                            <th scope="col" class="px-6 py-3">Problema Educacional</th>
+                            <th scope="col" class="px-6 py-3">Impacto no Negócio</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="bg-red-900/50 border-b border-gray-700 hover:bg-red-800/70">
+                            <td class="px-6 py-4 font-medium whitespace-nowrap text-white">Baixo engajamento</td>
+                            <td class="px-6 py-4">Colaboradores desmotivados com treinamentos</td>
+                        </tr>
+                        <tr class="bg-red-900/50 border-b border-gray-700 hover:bg-red-800/70">
+                            <td class="px-6 py-4 font-medium whitespace-nowrap text-white">Ciclos longos de desenvolvimento</td>
+                            <td class="px-6 py-4">Conteúdo desatualizado ao ser lançado</td>
+                        </tr>
+                        <tr class="bg-red-900/50 border-b border-gray-700 hover:bg-red-800/70">
+                            <td class="px-6 py-4 font-medium whitespace-nowrap text-white">Modelo tradicional expositivo</td>
+                            <td class="px-6 py-4">Baixa retenção e aplicação prática</td>
+                        </tr>
+                        <tr class="bg-red-900/50 border-b border-gray-700 hover:bg-red-800/70">
+                            <td class="px-6 py-4 font-medium whitespace-nowrap text-white">Falta de personalização</td>
+                            <td class="px-6 py-4">Conteúdo genérico sem conexão com realidade</td>
+                        </tr>
+                        <tr class="bg-red-900/50 border-b border-gray-700 hover:bg-red-800/70">
+                            <td class="px-6 py-4 font-medium whitespace-nowrap text-white">Processos manuais</td>
+                            <td class="px-6 py-4">Ineficiência operacional e altos custos</td>
+                        </tr>
+                        <tr class="bg-red-900/50 hover:bg-red-800/70">
+                            <td class="px-6 py-4 font-medium whitespace-nowrap text-white">CRM não integrado</td>
+                            <td class="px-6 py-4">Perda de oportunidades e leads qualificados</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <p class="text-lg font-semibold text-center text-emerald-300 mt-6 p-3 bg-emerald-900/30 rounded-lg">
+                &gt; **Missão:** Redesenhar completamente a experiência de aprendizagem corporativa através de design instrucional moderno, tecnologia e dados
+            </p>
+        </section>
+
+        <!-- SOLUÇÃO IMPLEMENTADA -->
+        <section id="solucao" class="section-card mb-12">
+            <h3 class="text-3xl font-bold highlight-color mb-6">🛠️ Solução Implementada</h3>
+
+            <!-- Stack Tecnológica Educacional -->
+            <div class="mb-8">
+                <h4 class="text-2xl font-semibold text-gray-200 mb-4 border-b border-gray-700 pb-2">🔧 Stack Tecnológica Educacional</h4>
+                <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+                    <div class="p-4 bg-gray-700 rounded-lg">
+                        <p class="text-lg font-bold text-orange-300 mb-2">Plataformas LMS:</p>
+                        <ul class="list-disc list-inside space-y-1 text-gray-400 ml-4">
+                            <li>Moodle (Base)</li>
+                            <li>Blackboard (Cursos avançados)</li>
+                            <li>Canvas LMS (Programas corporativos)</li>
+                        </ul>
+                    </div>
+                    <div class="p-4 bg-gray-700 rounded-lg">
+                        <p class="text-lg font-bold text-orange-300 mb-2">Ferramentas de Autoria:</p>
+                        <ul class="list-disc list-inside space-y-1 text-gray-400 ml-4">
+                            <li>Articulate Storyline (Cursos interativos)</li>
+                            <li>Camtasia (Videoaulas)</li>
+                            <li>Figma (Design de UX/LX)</li>
+                        </ul>
+                    </div>
+                    <div class="p-4 bg-gray-700 rounded-lg md:col-span-2 lg:col-span-2">
+                        <p class="text-lg font-bold text-orange-300 mb-2">CRM & Marketing:</p>
+                        <ul class="list-disc list-inside space-y-1 text-gray-400 ml-4">
+                            <li>HubSpot (Gestão completa do ciclo do aluno)</li>
+                            <li>Automações (Nutrição e follow-up inteligente)</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Metodologias de Design Instrucional -->
+            <div class="mb-8">
+                <h4 class="text-2xl font-semibold text-gray-200 mb-4 border-b border-gray-700 pb-2">🎨 Metodologias de Design Instrucional</h4>
+                <div class="overflow-x-auto">
+                    <table class="w-full text-sm text-left text-gray-400 rounded-lg overflow-hidden metric-table">
+                        <thead class="text-xs uppercase text-gray-300">
+                            <tr>
+                                <th>Princípio Andragógico</th>
+                                <th>Aplicação Prática</th>
+                                <th>Impacto</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="font-medium text-white">Problem-centered</td>
+                                <td>Casos reais da empresa</td>
+                                <td class="text-teal-400">+45% aplicação</td>
+                            </tr>
+                            <tr>
+                                <td class="font-medium text-white">Autonomia</td>
+                                <td>Trilhas self-paced</td>
+                                <td class="text-teal-400">+60% conclusão</td>
+                            </tr>
+                            <tr>
+                                <td class="font-medium text-white">Relevância</td>
+                                <td>Conteúdo contextualizado</td>
+                                <td class="text-teal-400">+74% engajamento</td>
+                            </tr>
+                            <tr>
+                                <td class="font-medium text-white">Experiencial</td>
+                                <td>Simulações e role-plays</td>
+                                <td class="text-teal-400">+55% retenção</td>
+                            </tr>
+                            <tr>
+                                <td class="font-medium text-white">Feedback rápido</td>
+                                <td>Avaliações imediatas</td>
+                                <td class="text-teal-400">+40% correção</td>
+                            </tr>
+                            <tr>
+                                <td class="font-medium text-white">Microlearning</td>
+                                <td>Pílulas de 5-15 min</td>
+                                <td class="text-teal-400">+68% adesão</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <!-- Portfólio de Trilhas Desenvolvidas -->
+            <div class="mb-8">
+                <h4 class="text-2xl font-semibold text-gray-200 mb-4 border-b border-gray-700 pb-2">📊 Portfólio de Trilhas Desenvolvidas</h4>
+                <div class="overflow-x-auto">
+                    <table class="w-full text-sm text-left text-gray-400 rounded-lg overflow-hidden metric-table">
+                        <thead class="text-xs uppercase text-gray-300">
+                            <tr>
+                                <th>Tipo de Trilha</th>
+                                <th>Público-Alvo</th>
+                                <th>Tecnologia</th>
+                                <th>Resultado</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="font-medium text-white">Liderança</td>
+                                <td>Gerentes e Supervisores</td>
+                                <td>Storyline + Moodle</td>
+                                <td class="text-teal-400">+52% aplicação</td>
+                            </tr>
+                            <tr>
+                                <td class="font-medium text-white">Onboarding</td>
+                                <td>Novos colaboradores</td>
+                                <td>Canvas LMS</td>
+                                <td class="text-teal-400">-65% tempo integração</td>
+                            </tr>
+                            <tr>
+                                <td class="font-medium text-white">Soft Skills</td>
+                                <td>Todos os níveis</td>
+                                <td>Video + Interações</td>
+                                <td class="text-teal-400">+48% feedbacks positivos</td>
+                            </tr>
+                            <tr>
+                                <td class="font-medium text-white">TI/Dev</td>
+                                <td>Equipes técnicas</td>
+                                <td>Blackboard + Labs</td>
+                                <td class="text-teal-400">+60% certificações</td>
+                            </tr>
+                            <tr>
+                                <td class="font-medium text-white">Facilitadores</td>
+                                <td>Instrutores internos</td>
+                                <td>Camtasia + HubSpot</td>
+                                <td class="text-teal-400">+71% qualidade aulas</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <!-- Exemplo: Trilha de Liderança (Visualização em Fluxo) -->
+            <div class="p-4 bg-gray-700 rounded-lg">
+                <h4 class="text-2xl font-semibold text-orange-300 mb-4">🎯 JORNADA DO LÍDER - 6 SEMANAS</h4>
+                <div class="overflow-x-auto">
+                    <!-- Workflow em linha com setas usando flexbox -->
+                    <div class="flex items-start justify-start space-x-2 sm:space-x-4 min-w-[700px]">
+                        
+                        <!-- Coluna 1 -->
+                        <div class="text-center flex-shrink-0 w-28">
+                            <div class="bg-orange-600/80 p-2 rounded-t-lg text-sm font-semibold">SEMANA 1</div>
+                            <div class="bg-orange-900/50 p-1 text-xs text-gray-300 rounded-b-lg">[Auto-conheci.]</div>
+                        </div>
+                        <div class="flex items-center mt-4 text-orange-400">→</div>
+
+                        <!-- Coluna 2 -->
+                        <div class="text-center flex-shrink-0 w-28">
+                            <div class="bg-orange-600/80 p-2 rounded-t-lg text-sm font-semibold">SEMANA 2</div>
+                            <div class="bg-orange-900/50 p-1 text-xs text-gray-300 rounded-b-lg">[Gestão Equipe]</div>
+                        </div>
+                        <div class="flex items-center mt-4 text-orange-400">→</div>
+
+                        <!-- Coluna 3 -->
+                        <div class="text-center flex-shrink-0 w-28">
+                            <div class="bg-orange-600/80 p-2 rounded-t-lg text-sm font-semibold">SEMANA 3</div>
+                            <div class="bg-orange-900/50 p-1 text-xs text-gray-300 rounded-b-lg">[Feedback Eficaz]</div>
+                        </div>
+                        <div class="flex items-center mt-4 text-orange-400">→</div>
+                        
+                        <!-- Coluna 4 -->
+                        <div class="text-center flex-shrink-0 w-28">
+                            <div class="bg-orange-600/80 p-2 rounded-t-lg text-sm font-semibold">SEMANA 4</div>
+                            <div class="bg-orange-900/50 p-1 text-xs text-gray-300 rounded-b-lg">[Tomada Decisão]</div>
+                        </div>
+                        <div class="flex items-center mt-4 text-orange-400">→</div>
+
+                        <!-- Coluna 5 -->
+                        <div class="text-center flex-shrink-0 w-28">
+                            <div class="bg-orange-600/80 p-2 rounded-t-lg text-sm font-semibold">SEMANA 5</div>
+                            <div class="bg-orange-900/50 p-1 text-xs text-gray-300 rounded-b-lg">[Gestão Conflitos]</div>
+                        </div>
+                        <div class="flex items-center mt-4 text-orange-400">→</div>
+                        
+                        <!-- Coluna 6 -->
+                        <div class="text-center flex-shrink-0 w-28">
+                            <div class="bg-orange-600/80 p-2 rounded-t-lg text-sm font-semibold">SEMANA 6</div>
+                            <div class="bg-orange-900/50 p-1 text-xs text-gray-300 rounded-b-lg">[Liderança Inspira.]</div>
+                        </div>
+                        <div class="flex items-center mt-4 text-orange-400">→</div>
+
+                        <!-- Coluna 7 (Final) -->
+                        <div class="text-center flex-shrink-0 w-28">
+                            <div class="bg-teal-600/80 p-2 rounded-lg text-sm font-semibold">CERTIFICAÇÃO</div>
+                        </div>
+
+                    </div>
+                </div>
+                
+                <h5 class="text-lg font-bold text-gray-200 mt-6 mb-3">🎯 MÉTRICAS DA TRILHA:</h5>
+                <div class="grid sm:grid-cols-2 md:grid-cols-4 gap-4 text-sm">
+                    <span class="p-2 bg-teal-700/50 rounded-lg">▢ 92% taxa de conclusão</span>
+                    <span class="p-2 bg-teal-700/50 rounded-lg">▢ 4.8/5 satisfação</span>
+                    <span class="p-2 bg-teal-700/50 rounded-lg">▢ 47% aplicação imediata</span>
+                    <span class="p-2 bg-teal-700/50 rounded-lg">▢ 83% recomendação</span>
+                </div>
+            </div>
+
+            <!-- Sistema CRM Educacional -->
+            <div class="mt-8">
+                <h4 class="text-2xl font-semibold text-gray-200 mb-4 border-b border-gray-700 pb-2">🎯 Sistema CRM Educacional</h4>
+                <div class="grid md:grid-cols-2 gap-6">
+                    <div class="p-4 bg-gray-700 rounded-lg">
+                        <p class="text-lg font-bold text-orange-300 mb-2">Journey do Lead:</p>
+                        <ul class="list-disc list-inside space-y-1 text-gray-400 ml-4">
+                            <li>Captura: Webinars e conteúdo gratuito</li>
+                            <li>Nutrição: Sequência de 8 e-mails automáticos</li>
+                            <li>Matrícula: Processo simplificado 1-clique</li>
+                            <li>Onboarding: Welcome kit digital</li>
+                            <li>Acompanhamento: Checkpoints automáticos</li>
+                            <li>Pós-curso: Alumni community</li>
+                        </ul>
+                    </div>
+                    <div class="p-4 bg-gray-700 rounded-lg">
+                        <p class="text-lg font-bold text-orange-300 mb-2">Automações HubSpot:</p>
+                        <ul class="list-disc list-inside space-y-1 text-gray-400 ml-4">
+                            <li>Segmentação por comportamento</li>
+                            <li>Cadência personalizada por perfil</li>
+                            <li>Alertas de engajamento</li>
+                            <li>Recomendações inteligentes</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Dashboard de Performance CRM (Visualização de Funil e Conversão) -->
+                <div class="grid md:grid-cols-2 gap-6 mt-6">
+                    <div class="p-4 bg-gray-800 rounded-lg">
+                        <p class="text-xl font-bold text-orange-300 mb-3">🎯 FUNIL DE CONVERSÃO - ANTES x DEPOIS</p>
+                        <ul class="space-y-3 text-sm">
+                            <li class="p-2 bg-red-800/50 rounded-md"><strong>ANTES:</strong> 100 leads → 15% conversão → 15 alunos (ROI: 1.5x)</li>
+                            <li class="p-2 bg-emerald-800/50 rounded-md"><strong>DEPOIS:</strong> 100 leads → 83% conversão → 83 alunos (ROI: 8.3x)</li>
+                        </ul>
+                    </div>
+    
+                    <!-- EVOLUÇÃO DA CONVERSÃO (Gráfico de Queda) -->
+                    <div class="p-4 bg-gray-800 rounded-lg">
+                        <p class="text-xl font-bold text-orange-300 mb-3">📈 EVOLUÇÃO DA CONVERSÃO</p>
+                        <p class="text-sm text-gray-400 mb-2">Aumento da taxa de 15% para 83% em 5 trimestres.</p>
+                        <div class="flex items-end h-40 space-x-2">
+                            <div class="w-1/5 h-[16%] bg-teal-600 rounded-t-sm" title="Q1: 15%"></div>
+                            <div class="w-1/5 h-[33%] bg-teal-500 rounded-t-sm" title="Q2: 30%"></div>
+                            <div class="w-1/5 h-[55%] bg-teal-400 rounded-t-sm" title="Q3: 50%"></div>
+                            <div class="w-1/5 h-[78%] bg-teal-300 rounded-t-sm" title="Q4: 70%"></div>
+                            <div class="w-1/5 h-[92%] bg-teal-200 rounded-t-sm" title="Q5: 83%"></div>
+                        </div>
+                        <div class="text-center text-gray-500 text-xs mt-2">Trimestres (Q1 a Q5)</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- RESULTADOS ALCANÇADOS -->
+        <section id="resultados" class="section-card mb-12">
+            <h3 class="text-3xl font-bold highlight-color mb-6">📈 Resultados Alcançados</h3>
+
+            <!-- Tabela de Métricas de Performance Educacional -->
+            <div class="mb-8">
+                <h4 class="text-2xl font-semibold text-gray-200 mb-4 border-b border-gray-700 pb-2">🎯 Métricas de Performance Educacional</h4>
+                <div class="overflow-x-auto">
+                    <table class="w-full text-sm text-left text-gray-400 rounded-lg overflow-hidden metric-table">
+                        <thead class="text-xs uppercase text-gray-300">
+                            <tr>
+                                <th>KPI</th>
+                                <th>Antes</th>
+                                <th>Depois</th>
+                                <th>Melhoria</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="font-medium text-white">Engajamento</td>
+                                <td>Baseline</td>
+                                <td class="text-teal-400">174%</td>
+                                <td class="font-bold text-teal-400">+74%</td>
+                            </tr>
+                            <tr>
+                                <td class="font-medium text-white">Tempo Desenvolvimento</td>
+                                <td>100%</td>
+                                <td class="text-teal-400">61%</td>
+                                <td class="font-bold text-red-400">-39%</td>
+                            </tr>
+                            <tr>
+                                <td class="font-medium text-white">Ciclo de Entrega</td>
+                                <td>100%</td>
+                                <td class="text-teal-400">48%</td>
+                                <td class="font-bold text-red-400">-52%</td>
+                            </tr>
+                            <tr>
+                                <td class="font-medium text-white">Conversão de Leads</td>
+                                <td>15%</td>
+                                <td class="text-teal-400">83%</td>
+                                <td class="font-bold text-teal-400">+453%</td>
+                            </tr>
+                            <tr>
+                                <td class="font-medium text-white">Satisfação</td>
+                                <td>3.2/5</td>
+                                <td class="text-teal-400">4.7/5</td>
+                                <td class="font-bold text-teal-400">+47%</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <!-- Impacto Operacional (Gráfico de Comparação) -->
+            <div>
+                <h4 class="text-2xl font-semibold text-gray-200 mb-4 border-b border-gray-700 pb-2">⚡ EFICIÊNCIA DE PRODUÇÃO</h4>
+                <p class="text-sm text-gray-400 mb-4">Comparação do tempo (percentual) gasto nas etapas de produção Antes vs. Depois da padronização e automação.</p>
+                
+                <div class="grid md:grid-cols-2 gap-6">
+                    
+                    <!-- ANTES -->
+                    <div class="p-4 bg-red-900/40 rounded-lg">
+                        <p class="text-lg font-bold text-red-300 mb-3">Tempo ANTES (Total 100%)</p>
+                        <div class="flex flex-col space-y-2 h-40">
+                            <div class="bg-red-700/80 p-2 rounded-lg w-[40%]" title="Dev: 40%">Dev</div>
+                            <div class="bg-red-600/80 p-2 rounded-lg w-[30%]" title="Review: 30%">Review</div>
+                            <div class="bg-red-500/80 p-2 rounded-lg w-[30%]" title="Launch: 30%">Launch</div>
+                        </div>
+                    </div>
+
+                    <!-- DEPOIS -->
+                    <div class="p-4 bg-teal-900/40 rounded-lg">
+                        <p class="text-lg font-bold text-teal-300 mb-3">Tempo DEPOIS (Total 48%)</p>
+                        <div class="flex flex-col space-y-2 h-40">
+                            <div class="bg-teal-700/80 p-2 rounded-lg w-[20%]" title="Dev: 20%">Dev</div>
+                            <div class="bg-teal-600/80 p-2 rounded-lg w-[15%]" title="Review: 15%">Review</div>
+                            <div class="bg-teal-500/80 p-2 rounded-lg w-[13%]" title="Launch: 13%">Launch</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="text-center text-gray-500 text-xs mt-2">Dev + Review + Launch = Tempo Total de Produção</div>
+            </div>
+        </section>
+
+        <!-- FERRAMENTAS & TECNOLOGIAS -->
+        <section id="ferramentas" class="section-card mb-12">
+            <h3 class="text-3xl font-bold highlight-color mb-6">🛠️ Ferramentas & Tecnologias</h3>
+            <div class="flex flex-wrap justify-center gap-4">
+                <span class="badge bg-blue-700 hover:bg-blue-800 transition duration-300">Articulate Storyline</span>
+                <span class="badge bg-orange-700 hover:bg-orange-800 transition duration-300">Moodle</span>
+                <span class="badge bg-pink-600 hover:bg-pink-700 transition duration-300">HubSpot</span>
+                <span class="badge bg-red-700 hover:bg-red-800 transition duration-300">Figma</span>
+                <span class="badge bg-sky-600 hover:bg-sky-700 transition duration-300">Canvas LMS</span>
+                <span class="badge bg-blue-500 hover:bg-blue-600 transition duration-300">Camtasia</span>
+            </div>
+        </section>
+
+        <!-- INOVAÇÕES & MELHORES PRÁTICAS -->
+        <section id="inovacoes" class="section-card mb-12">
+            <h3 class="text-3xl font-bold highlight-color mb-6">💡 Inovações & Melhores Práticas</h3>
+
+            <!-- Design de Experiência do Aprendiz -->
+            <div class="mb-8">
+                <h4 class="text-2xl font-semibold text-gray-200 mb-4 border-b border-gray-700 pb-2">🎨 Design de Experiência do Aprendiz</h4>
+                <div class="grid md:grid-cols-2 gap-6">
+                    <div class="p-4 bg-gray-700 rounded-lg">
+                        <p class="text-lg font-bold text-orange-300 mb-2">Princípios UX Aplicados:</p>
+                        <ul class="list-disc list-inside space-y-1 text-gray-400 ml-4">
+                            <li>Mobile-first para aprendizagem *anywhere*</li>
+                            <li>Gamification com badges e rankings</li>
+                            <li>Social learning com comunidades</li>
+                            <li>Personalização baseada em dados</li>
+                            <li>Acessibilidade universal</li>
+                        </ul>
+                    </div>
+                    <div class="p-4 bg-gray-700 rounded-lg">
+                        <p class="text-lg font-bold text-orange-300 mb-2">Inovações Técnicas:</p>
+                        <ul class="list-disc list-inside space-y-1 text-gray-400 ml-4">
+                            <li>Templates reutilizáveis</li>
+                            <li>Biblioteca de componentes</li>
+                            <li>Sistema de design instrucional</li>
+                            <li>Analytics integrado</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Legado Instrucional -->
+            <div class="mb-8">
+                <h4 class="text-2xl font-semibold text-gray-200 mb-4 border-b border-gray-700 pb-2">📚 Legado Instrucional</h4>
+                <ul class="list-disc list-outside space-y-3 text-gray-400 ml-5">
+                    <li class="pl-2">Framework de design replicável para novos cursos</li>
+                    <li class="pl-2">Biblioteca de componentes que acelerou desenvolvimento em 39%</li>
+                    <li class="pl-2">Sistema de métricas para decisões *data-driven*</li>
+                    <li class="pl-2">Comunidade de prática entre facilitadores</li>
+                    <li class="pl-2">Processos documentados para escala e qualidade</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- APRENDIZADOS & EVOLUÇÃO -->
+        <section id="evolucao" class="section-card mb-12">
+            <h3 class="text-3xl font-bold highlight-color mb-6">💡 Aprendizados & Evolução</h3>
+
+            <!-- Insights Transformadores -->
+            <div class="mb-8">
+                <h4 class="text-2xl font-semibold text-gray-200 mb-4 border-b border-gray-700 pb-2">🎓 Insights Transformadores</h4>
+                <ul class="list-disc list-outside space-y-3 text-gray-400 ml-5">
+                    <li class="pl-2"><strong>Tecnologia é meio, não fim:</strong> O foco sempre no resultado de aprendizagem.</li>
+                    <li class="pl-2"><strong>Dados revelam verdades:</strong> Analytics mostrou gaps invisíveis a olho nu.</li>
+                    <li class="pl-2"><strong>Velocidade importa:</strong> Conteúdo rápido e relevante vence conteúdo perfeito.</li>
+                    <li class="pl-2"><strong>Integração é chave:</strong> CRM + LMS = Experiência completa do aluno.</li>
+                </ul>
+            </div>
+
+            <!-- Próxima Fronteira -->
+            <div>
+                <h4 class="text-2xl font-semibold text-gray-200 mb-4 border-b border-gray-700 pb-2">🚀 Próxima Fronteira (Futuro da EdCorp)</h4>
+                <ul class="list-disc list-outside space-y-3 text-gray-400 ml-5">
+                    <li class="pl-2"><strong>AI Personalization:</strong> Conteúdo adaptativo em tempo real.</li>
+                    <li class="pl-2"><strong>Predictive Analytics:</strong> Antecipar necessidades de treinamento.</li>
+                    <li class="pl-2"><strong>VR/AR Learning:</strong> Simulações imersivas.</li>
+                    <li class="pl-2"><strong>Skills Mapping:</strong> Alinhamento automático com carreiras.</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- FOOTER E NAVEGAÇÃO -->
+        <footer class="text-center pt-8 border-t border-gray-700">
+            <p class="text-lg italic text-gray-400 mb-6 p-4 bg-gray-800 rounded-lg">
+                "Transformei aprendizagem corporativa de obrigação chata em experiência cativante - onde dados, design e tecnologia se encontram para desenvolver pessoas e negócios."
+            </p>
+            <div class="flex justify-center flex-wrap gap-4">
+                <a href="#" class="badge bg-purple-600 hover:bg-purple-700 transition duration-300">
+                    &larr; Voltar ao Portfólio Principal
+                </a>
+                <a href="#" class="badge bg-emerald-600 hover:bg-emerald-700 transition duration-300">
+                    &larr; Projeto Anterior
+                </a>
+                <a href="#" class="badge bg-blue-700 hover:bg-blue-800 transition duration-300">
+                    Próximo Projeto &rarr;
+                </a>
+            </div>
+        </footer>
+
+    </div>
+
+</body>
+</html>
